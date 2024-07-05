@@ -5,11 +5,12 @@ plugins {
 repositories {
 	google()
 	gradlePluginPortal()
+	maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/bootstrap")
 }
 
 dependencies {
-	implementation(kotlin("gradle-plugin", version = "2.0.20-Beta1"))
-	implementation(kotlin("serialization", version = "2.0.20-Beta1"))
+	implementation(kotlin("gradle-plugin", version = "2.1.0-dev-758"))
+	implementation(kotlin("serialization", version = "2.1.0-dev-758"))
 
 	implementation("com.github.ben-manes", "gradle-versions-plugin", "0.50.0")
 	implementation("com.github.jakemarsden", "git-hooks-gradle-plugin", "0.0.2")

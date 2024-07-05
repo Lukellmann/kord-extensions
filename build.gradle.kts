@@ -36,6 +36,7 @@ gitHooks {
 repositories {
 	google()
 	mavenCentral()
+	maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/bootstrap")
 
 	maven {
 		name = "Sonatype Snapshots"
